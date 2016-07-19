@@ -34,6 +34,9 @@
                                             <constraint firstAttribute="height" constant="42" id="zg3-1W-pJr"/>
                                         </constraints>
                                         <state key="normal" image="camera"/>
+                                        <connections>
+                                            <segue destination="E6f-rn-ElO" kind="show" identifier="AddPostVC" id="Dce-xQ-uAi"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.35608629439177703" green="0.51074408455040166" blue="0.76458333333333339" alpha="1" colorSpace="calibratedRGB"/>
@@ -111,6 +114,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="245" y="305"/>
+        </scene>
+        <!--Add PostVC-->
+        <scene sceneID="4QM-w3-Q0Q">
+            <objects>
+                <viewController id="E6f-rn-ElO" customClass="AddPostVC" customModule="snapApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6Ei-7t-NF9"/>
+                        <viewControllerLayoutGuide type="bottom" id="8Uz-fL-SXE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vlO-VE-V0m">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wen-li-43e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="965" y="305"/>
         </scene>
     </scenes>
     <resources>
